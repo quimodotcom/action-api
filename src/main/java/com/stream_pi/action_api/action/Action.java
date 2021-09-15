@@ -152,7 +152,7 @@ public class Action implements Cloneable, Serializable
     private String displayText = null;
     private boolean showDisplayText = true;
     private DisplayTextAlignment displayTextAlignment = DisplayTextAlignment.CENTER;
-    private AnimationNames actionAnimation = AnimationNames.NONE;
+    private Animation actionAnimation = Animation.NONE;
 
     private Node serverButtonGraphic = null;
 
@@ -198,8 +198,8 @@ public class Action implements Cloneable, Serializable
         this.displayTextAlignment = displayTextAlignment;
     }
     
-    public void setActionAnimation(AnimationNames actionAnim) {
-        this.actionAnimation = actionAnim;
+    public void setActionAnimation(Animation actionAnimation) {
+        this.actionAnimation = actionAnimation;
     }
 
     public void setDisplayTextFontColourHex(String displayTextFontColourHex) {
@@ -222,7 +222,7 @@ public class Action implements Cloneable, Serializable
         return displayTextAlignment;
     }
     
-    public AnimationNames getActionAnimation() {
+    public Animation getActionAnimation() {
         return actionAnimation;
     }
 

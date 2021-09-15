@@ -5,7 +5,7 @@
  */
 package com.stream_pi.action_api.action;
 
-public enum AnimationNames {
+public enum Animation {
     NONE("None"),
     BOUNCE("Bounce"),
     BOUNCEINOUT("Bounce In/Out"),
@@ -25,7 +25,7 @@ public enum AnimationNames {
     ZOOM("Zoom In/Out");
     
     private final String UIName;
-    AnimationNames(String UIName)
+    Animation(String UIName)
     {
         this.UIName = UIName;
     }
