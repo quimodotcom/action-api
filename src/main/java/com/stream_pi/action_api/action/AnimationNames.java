@@ -8,21 +8,21 @@ package com.stream_pi.action_api.action;
 public enum AnimationNames {
     NONE("None"),
     BOUNCE("Bounce"),
-    BOUNCEINOUT("Bounce_InOut"),
-    FADEINOUT("Fade_InOut"),
+    BOUNCEINOUT("Bounce In/Out"),
+    FADEINOUT("Fade In/Out"),
     FLASH("Flash"),
     FLIP("Flip"),
-    JACKINBOX("Jack_In_The_Box"), 
+    JACKINBOX("Jack In The Box"), 
     JELLO("Jello"),
     PULSE("Pulse"),
-    ROLLINOUT("Roll_InOut"),
-    ROTATEINOUT("Rotate_InOut"),
+    ROLLINOUT("Roll In/Out"),
+    ROTATEINOUT("RotateIn/Out"),
     RUBBER("RubberBand"),
-    SHAKE("Shake_LeftRight"),
+    SHAKE("Shake Left/Right"),
     SWING("Swing"),
     TADA("Tada"),
     WOBBLE("Wobble"),
-    ZOOM("Zoom_InOut");
+    ZOOM("Zoom In/Out");
     
     private final String UIName;
     AnimationNames(String UIName)
